@@ -1,0 +1,171 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Noto Sans KR', Helvetica, '맑은 고딕', 'malgun gothic', 'Apple SD Gothic Neo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.64px;
+  color: #444;
+}
+/* 공통요소 */
+.clearfix::after {
+  content: '';
+  position: relative;
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.inner {
+  position: relative;
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 전체 */
+
+/* header */
+.header{
+  position: fixed;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  display: block;
+  width: 100%;
+  z-index: 9999;
+}
+
+.header .inner{
+  position: relative;
+  display: block;
+  font-size: 0;
+
+}
+.header-logo{
+  position: relative;
+  display: block;
+  background-color: blue;
+  float: left;
+  font-size: 14px;
+}
+
+.gnb{
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+.depth1{
+  position: relative;
+  display: block;
+  white-space: nowrap;
+  font-size: 0;
+}
+.depth1 li{
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  padding: 20px 0;
+}
+.mainmenu{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+}
+
+.mainmenu::after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background: orange;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.depth1 li:hover .mainmenu{
+  color: orange;
+}
+
+.depth1 li:hover .mainmenu::after{
+  width: 100%;
+  visibility: visible;
+}
+
+/* //header */
+
+/* visual */
+.visual{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 800px;
+  background-color: #000;
+  padding-top: 200px;
+}
+.visual-content{
+  position: relative;
+  display: block;
+  width: 50%;
+  color: #fff;
+  float: left;
+}
+.visual-pick{
+  position: relative;
+  display: block;
+  width: 50%;
+  float: right;
+}
+/* //visual */
+
+/* about */
+.about{}
+/* //about */
+
+/* life */
+.life{}
+/* //life */
+
+/* portfolio */
+.portfolio{}
+/* //portfolio */
+
+/* skill */
+.skill{}
+/* //skill */
+
+/* contact */
+.contact{}
+/* //contact */
