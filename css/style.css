@@ -1,5 +1,11 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+  font-family: 'S-CoreDream-9Black';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   margin: 0;
@@ -27,7 +33,7 @@ html {
 }
 
 body {
-  font-family: 'Noto Sans KR', Helvetica, '맑은 고딕', 'malgun gothic', 'Apple SD Gothic Neo', sans-serif;
+  font-family: 'S-CoreDream-9Black', 'Noto Sans KR', Helvetica, '맑은 고딕', 'malgun gothic', 'Apple SD Gothic Neo', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
@@ -131,7 +137,7 @@ body {
   position: relative;
   display: block;
   width: 100%;
-  height: 800px;
+  height: 100vh;
   background-color: #000;
   padding-top: 200px;
 }
