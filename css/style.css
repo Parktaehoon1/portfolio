@@ -143,7 +143,7 @@ body {
   width: 100%;
   height: 100vh;
   background-color: #fff;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 .visual-content{
   position: relative;
@@ -184,24 +184,116 @@ body {
 /* //visual */
 
 /* about */
-.about{}
+.about{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+}
 
-.about-me{}
+.about-me{
+  position: absolute;
+  left: 0;
+  top: 80px;
+  display: block;
+}
 .about-info{}
 /* //about */
 
 /* life */
-.life{}
+.life{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-color: yellow;
+}
 /* //life */
 
 /* portfolio */
-.portfolio{}
+.portfolio{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+}
 /* //portfolio */
 
 /* skill */
-.skill{}
+.skill{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-color: skyblue;
+}
+.skill-depth1{
+  text-align: center;
+}
+.skill-depth1 li{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+#htmlskill {
+  margin: 0 20px 20px 20px;
+  width: 200px;
+  height: 8px;
+  position: relative;
+}
+#cssskill {
+  margin: 0 20px 20px 20px;
+  width: 200px;
+  height: 8px;
+  position: relative;
+}
+#jqueryskill {
+  margin: 0 20px 20px 20px;
+  width: 200px;
+  height: 8px;
+  position: relative;
+}
+#javascriptskill {
+  margin: 0 20px 20px 20px;  
+  width: 200px;
+  height: 8px;
+  position: relative;
+}
+#photoshopskill {
+  margin: 0 20px 20px 20px;  
+  width: 200px;
+  height: 8px;
+  position: relative;
+}
+#vueskill {
+  margin: 0 20px 20px 20px;  
+  width: 200px;
+  height: 8px;
+  position: relative;
+}
+#displayflex {
+  margin: 0 20px 20px 20px;  
+  width: 200px;
+  height: 8px;
+  position: relative;
+}
+#scssskill {
+  margin: 0 20px 20px 20px;  
+  width: 200px;
+  height: 8px;
+  position: relative;
+}
 /* //skill */
 
 /* contact */
-.contact{}
+.contact{  
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 30vh;
+  background-color: gray;
+}
 /* //contact */
