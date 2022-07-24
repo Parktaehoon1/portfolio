@@ -44,10 +44,10 @@ window.onload = function () {
           // Text color.
           // Default: same as stroke color (options.color)
           color: '#999',
-          fontSize : '1px',
+          fontSize : '13px',
           position: 'absolute',
           right: '0',
-          top: '30px',
+          top: '227px',
           padding: 0,
           margin: 0,
           transform: null
@@ -69,7 +69,7 @@ window.onload = function () {
       duration: 1400,
       color: '#FFEA82',
       trailColor: '#eee',
-      trailWidth: 1,
+      trailWidth: 4,
       svgStyle: {width: '100%', height: '100%'},
       text: {
         style: {
@@ -77,8 +77,9 @@ window.onload = function () {
           // Default: same as stroke color (options.color)
           color: '#999',
           position: 'absolute',
+          fontSize : '13px',
           right: '0',
-          top: '30px',
+          top: '227px',
           padding: 0,
           margin: 0,
           transform: null
@@ -99,16 +100,17 @@ window.onload = function () {
       duration: 1400,
       color: '#FFEA82',
       trailColor: '#eee',
-      trailWidth: 1,
+      trailWidth: 4,
       svgStyle: {width: '100%', height: '100%'},
       text: {
         style: {
           // Text color.
           // Default: same as stroke color (options.color)
           color: '#999',
+          fontSize : '13px',
           position: 'absolute',
           right: '0',
-          top: '30px',
+          top: '227px',
           padding: 0,
           margin: 0,
           transform: null
@@ -130,16 +132,17 @@ window.onload = function () {
       duration: 1400,
       color: '#FFEA82',
       trailColor: '#eee',
-      trailWidth: 1,
+      trailWidth: 4,
       svgStyle: {width: '100%', height: '100%'},
       text: {
         style: {
           // Text color.
           // Default: same as stroke color (options.color)
           color: '#999',
+          fontSize : '13px',
           position: 'absolute',
           right: '0',
-          top: '30px',
+          top: '227px',
           padding: 0,
           margin: 0,
           transform: null
@@ -161,16 +164,17 @@ window.onload = function () {
       duration: 1400,
       color: '#FFEA82',
       trailColor: '#eee',
-      trailWidth: 1,
+      trailWidth: 4,
       svgStyle: {width: '100%', height: '100%'},
       text: {
         style: {
           // Text color.
           // Default: same as stroke color (options.color)
           color: '#999',
+          fontSize : '13px',
           position: 'absolute',
           right: '0',
-          top: '30px',
+          top: '227px',
           padding: 0,
           margin: 0,
           transform: null
@@ -192,16 +196,17 @@ window.onload = function () {
       duration: 1400,
       color: '#FFEA82',
       trailColor: '#eee',
-      trailWidth: 1,
+      trailWidth: 4,
       svgStyle: {width: '100%', height: '100%'},
       text: {
         style: {
           // Text color.
           // Default: same as stroke color (options.color)
           color: '#999',
+          fontSize : '13px',
           position: 'absolute',
           right: '0',
-          top: '30px',
+          top: '227px',
           padding: 0,
           margin: 0,
           transform: null
@@ -223,16 +228,17 @@ window.onload = function () {
       duration: 1400,
       color: '#FFEA82',
       trailColor: '#eee',
-      trailWidth: 1,
+      trailWidth: 4,
       svgStyle: {width: '100%', height: '100%'},
       text: {
         style: {
           // Text color.
           // Default: same as stroke color (options.color)
           color: '#999',
+          fontSize : '13px',
           position: 'absolute',
           right: '0',
-          top: '30px',
+          top: '227px',
           padding: 0,
           margin: 0,
           transform: null
@@ -254,16 +260,17 @@ window.onload = function () {
       duration: 1400,
       color: '#FFEA82',
       trailColor: '#eee',
-      trailWidth: 1,
+      trailWidth: 4,
       svgStyle: {width: '100%', height: '100%'},
       text: {
         style: {
           // Text color.
           // Default: same as stroke color (options.color)
           color: '#999',
+          fontSize : '13px',
           position: 'absolute',
           right: '0',
-          top: '30px',
+          top: '227px',
           padding: 0,
           margin: 0,
           transform: null
